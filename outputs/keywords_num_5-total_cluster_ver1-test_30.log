@@ -1,0 +1,4 @@
+08/03/2022 03:24:44 - INFO - root -   Activating Elasticsearch....
+08/03/2022 03:24:44 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_5-total_cluster_ver1-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/03/2022 03:24:44 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_5-total_cluster_ver1-test_30
+08/03/2022 03:24:46 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_5-total_cluster_ver1-test_30
