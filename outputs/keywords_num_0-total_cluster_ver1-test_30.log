@@ -2,3 +2,38 @@
 08/03/2022 03:05:28 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_0-total_cluster_ver1-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
 08/03/2022 03:05:28 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_0-total_cluster_ver1-test_30
 08/03/2022 03:05:30 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_0-total_cluster_ver1-test_30
+08/03/2022 03:21:37 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
+08/03/2022 03:21:37 - INFO - root -   
+
+08/03/2022 03:22:06 - INFO - root -   Accuracy@1: 0.6322
+08/03/2022 03:22:06 - INFO - root -   Accuracy@3: 0.7839
+08/03/2022 03:22:06 - INFO - root -   Accuracy@5: 0.8235
+08/03/2022 03:22:06 - INFO - root -   Accuracy@10: 0.8767
+08/03/2022 03:22:06 - INFO - root -   Accuracy@20: 0.9158
+08/03/2022 03:22:06 - INFO - root -   Accuracy@50: 0.9508
+08/03/2022 03:22:06 - INFO - root -   Accuracy@100: 0.9748
+08/03/2022 03:22:06 - INFO - root -   Accuracy@500: 0.9917
+08/03/2022 03:22:06 - INFO - root -   Accuracy@1000: 0.9944
+08/03/2022 03:22:08 - INFO - root -   None
+08/03/2022 03:22:08 - INFO - root -   Query : Porsche, New Jersey, Toms River, Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Connecticut, Sarah Palin, Todd Palin, Alaska, Governorship of Sarah Palin, Bernard Tyson, Saturday Night Live (season 36), AdventHealth Orlando, E! News , 
+
+08/03/2022 03:22:08 - INFO - root -   Doc 1: 1163 ['It's not over': Sarah Palin says she is fighting to repair her marriage] - Former Alaska Gov. Sarah Palin said she learned her husband, Todd, wanted a divorce in an email from his lawyer and that the two are seeking counseling.
+
+08/03/2022 03:22:08 - INFO - root -   Doc 2: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
+
+08/03/2022 03:22:08 - INFO - root -   Doc 3: 33590 [Matt Millen remembers Charles Rogers for his big heart, not as draft bust] - The Detroit Lions made Charles Rogers the No. 2 pick in the 2003 NFL draft, taking him one spot ahead of future Hall of Famer Andre Johnson
+
+08/03/2022 03:22:08 - INFO - root -   Doc 4: 9746 [Former Detroit Lions wide receiver Charles Rogers dies at age 38] - Former Detroit Lions wide receiver Charles Rogers has died at the age of 38.
+
+08/03/2022 03:22:08 - INFO - root -   Doc 5: 19745 [Former star football player Charles Rogers dies at 38] - Former Michigan State University and Detroit Lions wide receiver Charles Rogers has died.
+
+08/03/2022 03:22:08 - INFO - root -   Doc 6: 29236 [Bernard Tyson, Kaiser Permanente CEO, dead at 60] - Bernard Tyson, chairman and chief executive of Oakland-based health care giant Kaiser Permanente, died Sunday, the company said. He was 60. A native of Vallejo, he is survived by his wife, Denise Bradley-Tyson, and three sons; Bernard J. Tyson Jr., Alexander and Charles. "It is with profound sadness that we announce that Bernard J. Tyson ... unexpectedly passed away early today in his sleep," the company said in a statement. "He was an...
+
+08/03/2022 03:22:08 - INFO - root -   Doc 7: 22183 [Former Detroit Lions Star Charles Rogers Dies At 38] - From Saginaw to East Lansing, Detroit and around the country, Charles Rogers had a reputation for being an elite athlete.
+
+08/03/2022 03:22:08 - INFO - root -   Doc 8: 1932 [Burning questions for Lions vs Packers on 'Monday Night Football'] - The Green Bay Packers host the Detroit Lions for an NFC North special edition of Monday Night Football to cap off a lively NFL Week 6 slate.
+
+08/03/2022 03:22:08 - INFO - root -   Doc 9: 9111 [When Your Partner Wants Out And You Don't] - Everyone has relationship problems from time to time. Recently, former Governor, Salin Palin, said learned that her husband wanted a divorce from an email sent by his attorney. Palin says that she's fighting for her marriage. If your partner says that they want out of your relationship, have a conversation. Find out exactly what the situation is from their perspective. Make sure you're listening to what they're saying. Not thinking about what...
+
+08/03/2022 03:22:08 - INFO - root -   Doc 10: 736 [Porsche launches into second story of New Jersey building, killing 2] - The Porsche went airborne off a median in Toms River, causing it to crash into a red brick building.
+
