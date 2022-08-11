@@ -1,0 +1,39 @@
+08/03/2022 03:42:30 - INFO - root -   Activating Elasticsearch....
+08/03/2022 03:42:30 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_3-total_cluster_ver1-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/03/2022 03:42:30 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_3-total_cluster_ver1-test_30
+08/03/2022 03:42:32 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_3-total_cluster_ver1-test_30
+08/03/2022 03:58:37 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
+08/03/2022 03:58:37 - INFO - root -   
+
+08/03/2022 03:59:07 - INFO - root -   Accuracy@1: 0.5858
+08/03/2022 03:59:07 - INFO - root -   Accuracy@3: 0.6643
+08/03/2022 03:59:07 - INFO - root -   Accuracy@5: 0.7281
+08/03/2022 03:59:07 - INFO - root -   Accuracy@10: 0.7682
+08/03/2022 03:59:07 - INFO - root -   Accuracy@20: 0.8233
+08/03/2022 03:59:07 - INFO - root -   Accuracy@50: 0.8960
+08/03/2022 03:59:07 - INFO - root -   Accuracy@100: 0.9336
+08/03/2022 03:59:07 - INFO - root -   Accuracy@500: 0.9794
+08/03/2022 03:59:07 - INFO - root -   Accuracy@1000: 0.9883
+08/03/2022 03:59:08 - INFO - root -   None
+08/03/2022 03:59:08 - INFO - root -   Query : Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Charles Rogers (American football), Detroit Lions, 2003 NFL Draft
+
+08/03/2022 03:59:08 - INFO - root -   Doc 1: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
+
+08/03/2022 03:59:08 - INFO - root -   Doc 2: 33590 [Matt Millen remembers Charles Rogers for his big heart, not as draft bust] - The Detroit Lions made Charles Rogers the No. 2 pick in the 2003 NFL draft, taking him one spot ahead of future Hall of Famer Andre Johnson
+
+08/03/2022 03:59:08 - INFO - root -   Doc 3: 9746 [Former Detroit Lions wide receiver Charles Rogers dies at age 38] - Former Detroit Lions wide receiver Charles Rogers has died at the age of 38.
+
+08/03/2022 03:59:08 - INFO - root -   Doc 4: 19745 [Former star football player Charles Rogers dies at 38] - Former Michigan State University and Detroit Lions wide receiver Charles Rogers has died.
+
+08/03/2022 03:59:08 - INFO - root -   Doc 5: 22183 [Former Detroit Lions Star Charles Rogers Dies At 38] - From Saginaw to East Lansing, Detroit and around the country, Charles Rogers had a reputation for being an elite athlete.
+
+08/03/2022 03:59:08 - INFO - root -   Doc 6: 32423 [Mitch Albom: Charles Rogers was a flash of talent and challenges] - Charles Rogers' derailed legacy with the Detroit Lions speaks even louder than his gifts. His early departure from this earth is a cautionary tale.
+
+08/03/2022 03:59:08 - INFO - root -   Doc 7: 78152 [Former No. 2 overall pick, Lions receiver Charles Rogers dies at age 38] - DETROIT (AP)   Former Michigan State star and Detroit Lions receiver Charles Rogers has died at the age of 38. A woman who identified herself as Cathy Rogers, his mother, confirmed the death Monday in a phone call from The Associated Press. Other details were not immediately known. Marshall Thomas, Rogers' former basketball coach at Saginaw High School in Michigan, told MLive.com that Rogers died Monday of liver failure and also had cancer. At...
+
+08/03/2022 03:59:08 - INFO - root -   Doc 8: 74932 [These moments helped Detroit Lions players reach NFL: They removed my tonsils] - Detroit Lions football players say they gained confidence in their chances to make it to the NFL from people who believed in them.
+
+08/03/2022 03:59:08 - INFO - root -   Doc 9: 41393 [Former Lions WR Charles Rogers dies at age 38] - Tragic news about the former Detroit Lion.
+
+08/03/2022 03:59:08 - INFO - root -   Doc 10: 26728 [Charles Rogers says pain pills, injuries ruined career, not marijuana] - Charles Rogers walked into the Michigan State University football building for the first time in 15 years last November.
+
