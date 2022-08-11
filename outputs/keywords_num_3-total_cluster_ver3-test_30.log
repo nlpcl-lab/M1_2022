@@ -1,0 +1,39 @@
+08/12/2022 03:04:48 - INFO - root -   Activating Elasticsearch....
+08/12/2022 03:04:48 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_3-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/12/2022 03:04:48 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_3-total_cluster_ver3-test_30
+08/12/2022 03:04:50 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_3-total_cluster_ver3-test_30
+08/12/2022 03:05:52 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
+08/12/2022 03:05:52 - INFO - root -   
+
+08/12/2022 03:05:54 - INFO - root -   Accuracy@1: 0.5826
+08/12/2022 03:05:54 - INFO - root -   Accuracy@3: 0.6926
+08/12/2022 03:05:54 - INFO - root -   Accuracy@5: 0.7452
+08/12/2022 03:05:54 - INFO - root -   Accuracy@10: 0.8061
+08/12/2022 03:05:54 - INFO - root -   Accuracy@20: 0.8616
+08/12/2022 03:05:54 - INFO - root -   Accuracy@50: 0.9288
+08/12/2022 03:05:54 - INFO - root -   Accuracy@100: 0.9649
+08/12/2022 03:05:54 - INFO - root -   Accuracy@500: 0.9945
+08/12/2022 03:05:54 - INFO - root -   Accuracy@1000: 0.9995
+08/12/2022 03:05:54 - INFO - root -   None
+08/12/2022 03:05:54 - INFO - root -   Query : Islamic State of Iraq and the Levant, Hoda Muthana, NBC News, Alabama, Vanna White, Pat Sajak, Wheel of Fortune (American game show), Associated Press, Los Angeles, Broadway theatre, Saturday Night Live (season 13), Bangladesh, India, Bangladesh–India relations, Buffalo Wild Wings, Lahey Hospital & Medical Center, Burlington, Massachusetts, Bob Norris (footballer), KKTV, Colorado, CBS, Donald Trump Jr., University of California, Peter T. King, Islamophobia, Ilhan Omar, Death of Eric Garner, United States House of Representatives, Women in Islam, Ummah, Minnesota, Jimmy Carter, Carter Center, Atlanta, Sarah Hyland, John Travolta, Christmas, Texas, ACH (wrestler), WWE, WWE brand extension, Calls (TV series), Donald Trump baby balloon, Tuscaloosa, Alabama, Donald Trump, San Fernando Valley, Meghan, Duchess of Sussex, Betsy DeVos, United States Secretary of Education, National Football League, San Francisco 49ers, New England Patriots, British royal family, Chuck E. Cheese's, Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Chevrolet Corvette, Chevrolet Corvette (C8), Detroit, Blue Zone, Dan Buettner, Costco, Rotisserie chicken, Frogmore Cottage, Marie L. Yovanovitch, Republican Party (United States), Mike Conaway, Adam Schiff, Ukraine, Democratic Party (United States), California, Buick Regal, Twitter, White Castle (restaurant), Indiana, Indianapolis Donald Trump's Duchess of Sussex was the Detroit Lions.
+
+08/12/2022 03:05:54 - INFO - root -   Doc 1: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
+
+08/12/2022 03:05:54 - INFO - root -   Doc 2: 97252 [Trump expected to attend LSU-Alabama football game] - WASHINGTON (AP)   President Donald Trump is expected to attend Saturday's college football matchup between the two highest-ranked teams in the nation, Louisiana State University and the University of Alabama. The Federal Aviation Administration is advising that Trump will travel to Tuscaloosa, Alabama, for the game. It will be the third Trump visit to a high-profile sporting event in as many weeks. Last month Trump attended Game 5 of the World...
+
+08/12/2022 03:05:54 - INFO - root -   Doc 3: 16401 [See Trump's enthusiastic reception at LSU-Alabama game] - President Donald Trump was greeted by applause at the LSU-Alabama SEC football game in Tuscaloosa, Alabama.
+
+08/12/2022 03:05:54 - INFO - root -   Doc 4: 55576 [Trump leaves WH, slams continued 'witch hunt'] - President Donald Trump said on Saturday that the "Republicans have never been so united" and that the "witch hunt continues" as he left the White House with First Lady Melania Trump to travel to Tuscaloosa, Alabama. (Nov. 9)
+
+08/12/2022 03:05:54 - INFO - root -   Doc 5: 2504 [WATCH: Trump Greeted by Cheers at LSU-Alabama Football Game] - President Donald Trump was greeted by a round of cheers while attending the University of Alabama's football home game against Louisiana State University Videos of the event appear to show loud cheers greeting Trump, though one reporter noted there were some "lingering boos."
+
+08/12/2022 03:05:54 - INFO - root -   Doc 6: 82057 [The recap: Charlie Kirk, Donald Trump Jr. at Colorado State University] - These are live updates from University Center for the Arts event on Colorado State University campus.
+
+08/12/2022 03:05:54 - INFO - root -   Doc 7: 1115 ['Baby Trump' balloon slashed at Alabama appearance] - TUSCALOOSA, Ala. (AP)   A towering "Baby Trump" protest balloon was knifed and deflated by someone unhappy with its appearance during President Donald Trump's Saturday trip to Alabama, organizers said.
+
+08/12/2022 03:05:54 - INFO - root -   Doc 8: 137 ['Baby Trump' balloon slashed while in Tuscaloosa] - After being transported to Tuscaloosa, Alabama, where President Trump was attending the LSU- Alabama football game, the "Baby Trump" balloon has been slashed -- and as a result, deflated.
+
+08/12/2022 03:05:54 - INFO - root -   Doc 9: 46575 [Charlie Kirk, Donald Trump Jr. talk about campus culture, being 'woke' at Colorado State] - Turning Point USA President Charlie Kirk and Donald Trump Jr. came to the Colorado State University campus Tuesday to talk about the "culture war."
+
+08/12/2022 03:05:54 - INFO - root -   Doc 10: 12383 [President Trump says Duchess Meghan takes media scrutiny 'very personally'] - President Donald Trump is weighing in on the British tabloid's alleged treatment of Duchess Meghan.
+

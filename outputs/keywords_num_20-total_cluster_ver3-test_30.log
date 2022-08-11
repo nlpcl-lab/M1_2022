@@ -1,0 +1,39 @@
+08/12/2022 02:59:34 - INFO - root -   Activating Elasticsearch....
+08/12/2022 02:59:34 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_20-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/12/2022 02:59:34 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_20-total_cluster_ver3-test_30
+08/12/2022 02:59:36 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_20-total_cluster_ver3-test_30
+08/12/2022 03:00:54 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
+08/12/2022 03:00:54 - INFO - root -   
+
+08/12/2022 03:00:56 - INFO - root -   Accuracy@1: 0.6426
+08/12/2022 03:00:56 - INFO - root -   Accuracy@3: 0.7343
+08/12/2022 03:00:56 - INFO - root -   Accuracy@5: 0.7820
+08/12/2022 03:00:56 - INFO - root -   Accuracy@10: 0.8340
+08/12/2022 03:00:56 - INFO - root -   Accuracy@20: 0.8817
+08/12/2022 03:00:56 - INFO - root -   Accuracy@50: 0.9361
+08/12/2022 03:00:56 - INFO - root -   Accuracy@100: 0.9660
+08/12/2022 03:00:56 - INFO - root -   Accuracy@500: 0.9947
+08/12/2022 03:00:56 - INFO - root -   Accuracy@1000: 0.9994
+08/12/2022 03:00:56 - INFO - root -   None
+08/12/2022 03:00:56 - INFO - root -   Query : Hong Kong, Syria, Mark Esper, Donald Trump, United States, National Football League, Rip Taylor, Black Adam, Dwayne Johnson, Jaume Collet-Serra, Jungle Cruise (film), Transylvania, New Line Cinema, DC Comics, The Walt Disney Company, Dolly Parton, Wang Sicong, Wang Jianlin, Republican Party (United States), Jane Fonda, Washington, D.C., China, Sichuan, Dallas Cowboys, Minnesota Vikings, Broadway theatre, Saturday Night Live (season 13), Teresa Giudice, Italy, Rand Paul, Kentucky, Matt Bevin, Kevin O'Leary, Keanu Reeves, San Francisco 49ers, Russell Wilson, Seattle Seahawks, Hunter Biden, President of Ukraine, Thailand, Federal government of the United States, Monsanto, Syngenta, Presidency of Donald Trump, Sarah Hyland, Madonna (entertainer), Louisiana, Sandy Hook Elementary School shooting, Remington Arms, Newtown, Connecticut, Connecticut The Republican Party of the United States is Donald Trump, who was once a member of the
+
+08/12/2022 03:00:56 - INFO - root -   Doc 1: 693 [Dwayne Johnson Announces 'Black Adam' 2021 Release Date] - The New Line movie, Black Adam, based on the DC comics property will hit cinemas on Wednesday Dec. 22, 2021, five days after Fox's Avatar sequel on Dec. 17. Pic is directed by Jaume Collet-Serra, who recently directed star Dwayne Johnson in Disney's upcoming Jungle Cruise. Black Adam will open up against Sony's Hotel Transylvania 4, Universal's feature adaptation of the
+
+08/12/2022 03:00:56 - INFO - root -   Doc 2: 34840 [Kevin Poindexter Hired For President Trump's Re-Election Effort In Minnesota] - Kevin Poindexter, the former executive director of the Minnesota Republican Party, is now the Minnesota state director to help in President Donald Trump's re-election campaign.
+
+08/12/2022 03:00:56 - INFO - root -   Doc 3: 64610 [Trump: Syria crisis 'has nothing to do with us'] - U.S. President Donald Trump dismissed criticism over the continuing crisis in Syria, a stance in stark contrast with the president's fellow Republicans in the United States. Zachary Goelman reports.
+
+08/12/2022 03:00:56 - INFO - root -   Doc 4: 9832 [Rand Paul: 'Teachers' anger' cost Matt Bevin the Kentucky gubernatorial election] - Overall, Rand Paul said that Matt Bevin's loss is not indicative of a lack of the Republican party in the Bluegrass State.
+
+08/12/2022 03:00:56 - INFO - root -   Doc 5: 44881 [Esper: U.S. will leave forces in Syria to 'deny' the Islamic State 'access to oil revenue'] - Defense Secretary Mark Esper said Oct. 25 that the United States would maintain a "reduced presence" in Syria, in a partial reversal of President Trump's withdrawal.
+
+08/12/2022 03:00:56 - INFO - root -   Doc 6: 48508 [Trump will be the only primary choice for Minnesota Republicans] - Minnesotans who cast ballots in the state's new March presidential primary will have only one name to choose from on the Republican ticket: President Donald J. Trump. The Minnesota Republican Party submitted a "determination for candidates" for the March 3, 2020 primary on Oct. 24. The document lists the president as the only candidate and […]
+
+08/12/2022 03:00:56 - INFO - root -   Doc 7: 37222 [Rand Paul may force Senate vote on Hunter Biden testifying in impeachment trial] - Rand Paul, Kentucky's junior GOP senator, said he thinks President Donald Trump should be able to call on Hunter Biden and other witnesses to testify.
+
+08/12/2022 03:00:56 - INFO - root -   Doc 8: 1766 [As Hong Kong protests spread to United States, colleges see a growing divide] - As the protests in Hong Kong enter their 21st week, the conflict is spilling onto campuses across the United States and highlighting rising tensions between Hong Kong-born students and their classmates from mainland China.
+
+08/12/2022 03:00:56 - INFO - root -   Doc 9: 30054 [Joe: Trump lost Kentucky for the Republicans] - Kentucky Attorney General Andy Beshear pulled off an upset Tuesday night in an apparent victory over Republican Gov. Matt Bevin, dealing a blow to President Donald Trump. Joe Scarborough weighs in.
+
+08/12/2022 03:00:56 - INFO - root -   Doc 10: 26678 [President Trump tweets about Marie Yovanovitch during testimony] - The former ambassador of the United States to Ukraine called President Trump's tweet "intimidating."
+

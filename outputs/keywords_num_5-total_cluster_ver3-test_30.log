@@ -1,0 +1,39 @@
+08/12/2022 02:59:48 - INFO - root -   Activating Elasticsearch....
+08/12/2022 02:59:48 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_5-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/12/2022 02:59:48 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_5-total_cluster_ver3-test_30
+08/12/2022 02:59:51 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_5-total_cluster_ver3-test_30
+08/12/2022 03:01:10 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
+08/12/2022 03:01:10 - INFO - root -   
+
+08/12/2022 03:01:11 - INFO - root -   Accuracy@1: 0.6074
+08/12/2022 03:01:11 - INFO - root -   Accuracy@3: 0.7077
+08/12/2022 03:01:11 - INFO - root -   Accuracy@5: 0.7803
+08/12/2022 03:01:11 - INFO - root -   Accuracy@10: 0.8317
+08/12/2022 03:01:11 - INFO - root -   Accuracy@20: 0.8850
+08/12/2022 03:01:11 - INFO - root -   Accuracy@50: 0.9474
+08/12/2022 03:01:11 - INFO - root -   Accuracy@100: 0.9741
+08/12/2022 03:01:11 - INFO - root -   Accuracy@500: 0.9970
+08/12/2022 03:01:11 - INFO - root -   Accuracy@1000: 1.0000
+08/12/2022 03:01:11 - INFO - root -   None
+08/12/2022 03:01:11 - INFO - root -   Query : Broadway theatre, Saturday Night Live (season 13), Dodge Power Wagon, Ford Mustang, Montana, Taliban, American University of Afghanistan, Kabul, United States, Chevrolet Camaro, Chevrolet Camaro (first generation), Edsel, Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Shelter Island, New York, Los Alamos, California, California, Rip Taylor, Minnesota, Donald Trump baby balloon, Tuscaloosa, Alabama, Donald Trump The United States is home to Donald Trump and Charles Rogers (American football) in 2003 NFL
+
+08/12/2022 03:01:11 - INFO - root -   Doc 1: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
+
+08/12/2022 03:01:11 - INFO - root -   Doc 2: 33590 [Matt Millen remembers Charles Rogers for his big heart, not as draft bust] - The Detroit Lions made Charles Rogers the No. 2 pick in the 2003 NFL draft, taking him one spot ahead of future Hall of Famer Andre Johnson
+
+08/12/2022 03:01:11 - INFO - root -   Doc 3: 1115 ['Baby Trump' balloon slashed at Alabama appearance] - TUSCALOOSA, Ala. (AP)   A towering "Baby Trump" protest balloon was knifed and deflated by someone unhappy with its appearance during President Donald Trump's Saturday trip to Alabama, organizers said.
+
+08/12/2022 03:01:11 - INFO - root -   Doc 4: 19745 [Former star football player Charles Rogers dies at 38] - Former Michigan State University and Detroit Lions wide receiver Charles Rogers has died.
+
+08/12/2022 03:01:11 - INFO - root -   Doc 5: 137 ['Baby Trump' balloon slashed while in Tuscaloosa] - After being transported to Tuscaloosa, Alabama, where President Trump was attending the LSU- Alabama football game, the "Baby Trump" balloon has been slashed -- and as a result, deflated.
+
+08/12/2022 03:01:11 - INFO - root -   Doc 6: 16030 [Watch: Man is arrested after stabbing 'Baby Trump' balloon] - A man was arrested for stabbing the "Baby Trump" protest balloon in Tuscaloosa, Ala. The balloon was in the area for President Trump's trip to the Alabama football game.
+
+08/12/2022 03:01:11 - INFO - root -   Doc 7: 26728 [Charles Rogers says pain pills, injuries ruined career, not marijuana] - Charles Rogers walked into the Michigan State University football building for the first time in 15 years last November.
+
+08/12/2022 03:01:11 - INFO - root -   Doc 8: 97252 [Trump expected to attend LSU-Alabama football game] - WASHINGTON (AP)   President Donald Trump is expected to attend Saturday's college football matchup between the two highest-ranked teams in the nation, Louisiana State University and the University of Alabama. The Federal Aviation Administration is advising that Trump will travel to Tuscaloosa, Alabama, for the game. It will be the third Trump visit to a high-profile sporting event in as many weeks. Last month Trump attended Game 5 of the World...
+
+08/12/2022 03:01:11 - INFO - root -   Doc 9: 16401 [See Trump's enthusiastic reception at LSU-Alabama game] - President Donald Trump was greeted by applause at the LSU-Alabama SEC football game in Tuscaloosa, Alabama.
+
+08/12/2022 03:01:11 - INFO - root -   Doc 10: 9746 [Former Detroit Lions wide receiver Charles Rogers dies at age 38] - Former Detroit Lions wide receiver Charles Rogers has died at the age of 38.
+
