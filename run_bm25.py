@@ -8,9 +8,9 @@ import logging
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--corpus_path", default="/home/syjeong/Starlab/data/preprocessed/total_docs.json", type=str, help="")
-parser.add_argument("--query_path", default='data/preprocessed/ver1/keywords_num/5/total_cluster_ver1_30_users_query_penguin.json', type=str, help="")
-parser.add_argument("--qrel_path", default='data/preprocessed/ver1/keywords_num/5/total_cluster_ver1_30_users_qrel_penguin.json', type=str, help="")
-parser.add_argument("--index_name", default='keywords_num_5-total_cluster_ver1-test_30', type=str, help="")
+parser.add_argument("--query_path", default='data/preprocessed/ver3/keywords_num/10/total_cluster_ver3_30_users_query_penguin.json', type=str, help="")
+parser.add_argument("--qrel_path", default='data/preprocessed/ver3/keywords_num/10/total_cluster_ver3_30_users_qrel_penguin.json', type=str, help="")
+parser.add_argument("--index_name", default='keywords_num_10-total_cluster_ver3-test_30', type=str, help="")
 
 args = parser.parse_args()
 

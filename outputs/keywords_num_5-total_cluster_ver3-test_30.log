@@ -1,0 +1,39 @@
+08/12/2022 02:24:30 - INFO - root -   Activating Elasticsearch....
+08/12/2022 02:24:30 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_5-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/12/2022 02:24:30 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_5-total_cluster_ver3-test_30
+08/12/2022 02:24:32 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_5-total_cluster_ver3-test_30
+08/12/2022 02:25:35 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
+08/12/2022 02:25:35 - INFO - root -   
+
+08/12/2022 02:25:36 - INFO - root -   Accuracy@1: 0.6108
+08/12/2022 02:25:36 - INFO - root -   Accuracy@3: 0.7125
+08/12/2022 02:25:36 - INFO - root -   Accuracy@5: 0.7806
+08/12/2022 02:25:36 - INFO - root -   Accuracy@10: 0.8334
+08/12/2022 02:25:36 - INFO - root -   Accuracy@20: 0.8858
+08/12/2022 02:25:36 - INFO - root -   Accuracy@50: 0.9468
+08/12/2022 02:25:36 - INFO - root -   Accuracy@100: 0.9739
+08/12/2022 02:25:36 - INFO - root -   Accuracy@500: 0.9971
+08/12/2022 02:25:36 - INFO - root -   Accuracy@1000: 1.0000
+08/12/2022 02:25:36 - INFO - root -   None
+08/12/2022 02:25:36 - INFO - root -   Query : Tim Ryan (Ohio politician), Joe Biden, Democratic Party (United States), Republican Party (United States), Connecticut, Remembrance Day, Meghan, Duchess of Sussex, Christmas ornament, Donald Trump, Marie L. Yovanovitch, Ukraine, United StatesThe United States is the location of Prince Harry and Prince Harry in the state of Connecticut. Donald
+
+08/12/2022 02:25:36 - INFO - root -   Doc 1: 8923 [Meghan Markle and Prince Harry's dinner party etiquette is 'frowned upon'] - Prince Harry and Meghan have been causing a stir in society circles by ignoring long-standing dinner party etiquette.
+
+08/12/2022 02:25:36 - INFO - root -   Doc 2: 1931 [Meghan Markle, Prince Harry, Kate Middleton and Prince William Are Set to Reunite This Week!] - Meghan Markle, Prince Harry, Kate, William Reunite for Remembrance Week
+
+08/12/2022 02:25:36 - INFO - root -   Doc 3: 6076 [Ukraine police detain suspected hacker wanted by United States] - Ukraine police detain suspected hacker wanted by United States
+
+08/12/2022 02:25:36 - INFO - root -   Doc 4: 2271 [Already 6 Months! Prince Harry, Duchess Meghan's Son Is Trying to Talk] - Already 6 Months! Prince Harry, Duchess Meghan's Son Is Trying to Talk
+
+08/12/2022 02:25:36 - INFO - root -   Doc 5: 90421 [Turkey: United States was not "honest"] - In part 2 of their exclusive interview, Turkish Presidential spokesman, Ibrahim Kalin, tells Becky Anderson that Russia gave it what the United States could not.
+
+08/12/2022 02:25:36 - INFO - root -   Doc 6: 89972 [Meghan's first visit to Westminster Abbey's Field of Remembrance] - Britain's Duchess of Sussex, Meghan, made her first visit to Westminster Abbey's Field of Remembrance on Thursday (November 7), joining her husband Prince Harry in planting a memorial cross ahead of Remembrance Sunday.
+
+08/12/2022 02:25:36 - INFO - root -   Doc 7: 86280 [The United States Is the Most Generous Country] - Veuer's Elizabeth Keatinge tells us about a recent report that says that the United States is the most generous country in the world.
+
+08/12/2022 02:25:36 - INFO - root -   Doc 8: 90867 [Ed Sheeran and Prince Harry unite in video for World Mental Health Day] - Prince Harry and Ed Sheeran have teamed up in a video to raise awareness for World Mental Health Day -- with a light-hearted jibe at their own plight as Britain's most famous redheads.
+
+08/12/2022 02:25:36 - INFO - root -   Doc 9: 1018 [Here's how much it will cost to travel to Africa like Meghan Markle and Prince Harry] - The travel company Classic Escapes is offering a package that promises a 10-day trip throughout South Africa, full of the same cultural and philanthropic pit stops Prince Harry and Meghan, Duchess of Sussex, made this September.
+
+08/12/2022 02:25:36 - INFO - root -   Doc 10: 16 [Meghan Markle and Prince Harry Reunite with Kate Middleton and Prince William for Remembrance Service] - Meghan Markle, Harry Reunite Kate and William at Remembrance Day
+
