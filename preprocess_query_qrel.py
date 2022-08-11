@@ -12,7 +12,7 @@ warnings.filterwarnings(action='ignore')
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--valid_proportaion", default=0.7, type=float, help="")
-parser.add_argument("--keywords_num", default=10, type=int, help="")
+parser.add_argument("--keywords_num", default=15, type=int, help="")
 args = parser.parse_args()
 
 def make_query_qrel_for_each_cluster(cluster_num):
@@ -101,9 +101,13 @@ for i in range(0,10):
     # (TODO): 위의 이유로 total_cluster_json_qrel_preprocessed[k] = v 로 해도 되는지 확인..?
     for k, v in i_cluster_json_qrel_preprocessed.items():
         #total_cluster_json_qrel_preprocessed[k] = {**total_cluster_json_qrel_preprocessed[k], **v} if k in total_cluster_json_qrel_preprocessed else v
-        assert v == total_cluster_json_qrel_preprocessed[k]
-        total_cluster_json_qrel_preprocessed[k] = v
         
+        if k in total_cluster_json_qrel_preprocessed:
+            assert v == total_cluster_json_qrel_preprocessed[k]
+            total_cluster_json_qrel_preprocessed[k] = {**total_cluster_json_qrel_preprocessed[k], **v}
+        else:
+            total_cluster_json_qrel_preprocessed[k] = v
+
 with open('/home/syjeong/Starlab/data/preprocessed/ver3/keywords_num/'+str(args.keywords_num)+'/'+'total_cluster_ver3_30_users_query_penguin.json', "w") as writer: 
     writer.write(json.dumps(total_cluster_json_query_preprocessed, indent=4) + "\n")
 

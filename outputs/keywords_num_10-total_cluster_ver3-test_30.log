@@ -2,3 +2,38 @@
 08/12/2022 02:37:01 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_10-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
 08/12/2022 02:37:01 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_10-total_cluster_ver3-test_30
 08/12/2022 02:37:03 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_10-total_cluster_ver3-test_30
+08/12/2022 02:38:05 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
+08/12/2022 02:38:05 - INFO - root -   
+
+08/12/2022 02:38:07 - INFO - root -   Accuracy@1: 0.6292
+08/12/2022 02:38:07 - INFO - root -   Accuracy@3: 0.7202
+08/12/2022 02:38:07 - INFO - root -   Accuracy@5: 0.7583
+08/12/2022 02:38:07 - INFO - root -   Accuracy@10: 0.8143
+08/12/2022 02:38:07 - INFO - root -   Accuracy@20: 0.8666
+08/12/2022 02:38:07 - INFO - root -   Accuracy@50: 0.9375
+08/12/2022 02:38:07 - INFO - root -   Accuracy@100: 0.9701
+08/12/2022 02:38:07 - INFO - root -   Accuracy@500: 0.9959
+08/12/2022 02:38:07 - INFO - root -   Accuracy@1000: 0.9995
+08/12/2022 02:38:07 - INFO - root -   None
+08/12/2022 02:38:07 - INFO - root -   Query : Noah Centineo, Eastern Time Zone, San Diego State University, Adela de la Torre, Remembrance Day, Meghan, Duchess of Sussex, Connecticut, Alex Trebek, Jeopardy!, Comcast, Supreme Court of the United States, Kodak Black, Charles Rogers (American football), Detroit Lions, 2003 NFL DraftThe Detroit Lions are based in Connecticut in the United States. Their coach is Charles Roger
+
+08/12/2022 02:38:07 - INFO - root -   Doc 1: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
+
+08/12/2022 02:38:07 - INFO - root -   Doc 2: 19745 [Former star football player Charles Rogers dies at 38] - Former Michigan State University and Detroit Lions wide receiver Charles Rogers has died.
+
+08/12/2022 02:38:07 - INFO - root -   Doc 3: 9746 [Former Detroit Lions wide receiver Charles Rogers dies at age 38] - Former Detroit Lions wide receiver Charles Rogers has died at the age of 38.
+
+08/12/2022 02:38:07 - INFO - root -   Doc 4: 33590 [Matt Millen remembers Charles Rogers for his big heart, not as draft bust] - The Detroit Lions made Charles Rogers the No. 2 pick in the 2003 NFL draft, taking him one spot ahead of future Hall of Famer Andre Johnson
+
+08/12/2022 02:38:07 - INFO - root -   Doc 5: 22183 [Former Detroit Lions Star Charles Rogers Dies At 38] - From Saginaw to East Lansing, Detroit and around the country, Charles Rogers had a reputation for being an elite athlete.
+
+08/12/2022 02:38:07 - INFO - root -   Doc 6: 78152 [Former No. 2 overall pick, Lions receiver Charles Rogers dies at age 38] - DETROIT (AP)   Former Michigan State star and Detroit Lions receiver Charles Rogers has died at the age of 38. A woman who identified herself as Cathy Rogers, his mother, confirmed the death Monday in a phone call from The Associated Press. Other details were not immediately known. Marshall Thomas, Rogers' former basketball coach at Saginaw High School in Michigan, told MLive.com that Rogers died Monday of liver failure and also had cancer. At...
+
+08/12/2022 02:38:07 - INFO - root -   Doc 7: 26728 [Charles Rogers says pain pills, injuries ruined career, not marijuana] - Charles Rogers walked into the Michigan State University football building for the first time in 15 years last November.
+
+08/12/2022 02:38:07 - INFO - root -   Doc 8: 32423 [Mitch Albom: Charles Rogers was a flash of talent and challenges] - Charles Rogers' derailed legacy with the Detroit Lions speaks even louder than his gifts. His early departure from this earth is a cautionary tale.
+
+08/12/2022 02:38:07 - INFO - root -   Doc 9: 1148 [San Diego State University freshman hurt in fraternity incident dies] - SAN DIEGO - Dylan Hernandez, the 19-year-old San Diego State University freshman who required medical attention last week after an unspecified incident at one school's fraternities, has died, campus officials said on Monday. "His family gave their goodbyes late Sunday night," SDSU President Adela de la Torre said in a statement.
+
+08/12/2022 02:38:07 - INFO - root -   Doc 10: 7485 [Charles Rogers, former No. 2 overall pick and Michigan State star, dies at 38] - Former NFL wide receiver and Michigan State star Charles Rogers died early Monday morning, several former teammates and coaches have confirmed. He was 38.
+
