@@ -1,39 +1,43 @@
-08/12/2022 02:50:12 - INFO - root -   Activating Elasticsearch....
-08/12/2022 02:50:12 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_10-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
-08/12/2022 02:50:12 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_10-total_cluster_ver3-test_30
-08/12/2022 02:50:15 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_10-total_cluster_ver3-test_30
-08/12/2022 02:51:17 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
-08/12/2022 02:51:17 - INFO - root -   
+08/12/2022 03:16:14 - INFO - root -   Activating Elasticsearch....
+08/12/2022 03:16:14 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_10-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/12/2022 03:16:14 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_10-total_cluster_ver3-test_30
+08/12/2022 03:16:16 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_10-total_cluster_ver3-test_30
+08/12/2022 03:17:19 - INFO - root -   Retriever evaluation for k in: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 50, 100]
+08/12/2022 03:17:19 - INFO - root -   
 
-08/12/2022 02:51:19 - INFO - root -   Accuracy@1: 0.6262
-08/12/2022 02:51:19 - INFO - root -   Accuracy@3: 0.7178
-08/12/2022 02:51:19 - INFO - root -   Accuracy@5: 0.7580
-08/12/2022 02:51:19 - INFO - root -   Accuracy@10: 0.8166
-08/12/2022 02:51:19 - INFO - root -   Accuracy@20: 0.8677
-08/12/2022 02:51:19 - INFO - root -   Accuracy@50: 0.9384
-08/12/2022 02:51:19 - INFO - root -   Accuracy@100: 0.9700
-08/12/2022 02:51:19 - INFO - root -   Accuracy@500: 0.9965
-08/12/2022 02:51:19 - INFO - root -   Accuracy@1000: 0.9995
-08/12/2022 02:51:19 - INFO - root -   None
-08/12/2022 02:51:19 - INFO - root -   Query : Faroe Islands, International volunteering, Social Security (United States), United States Census Bureau, United States, Amazed, Katie Couric, Matt Lauer, Dress For Success (organization), Today (American TV program), New York City, U.S. state, Connecticut, Donald Trump baby balloon, Tuscaloosa, Alabama, Donald Trump, The Real Housewives of Potomac, United Kingdom, England, Selena Gomez, Marie Osmond, Las Vegas, O'Hare International Airport, Storyful, American Airlines, Midway International Airport, National Weather Service, Greensboro, North Carolina, North Carolina, Texas, Popeyes, Pilgrims (Plymouth Colony), Thanksgiving (United States), Wampanoag, Mayflower, British colonization of the Americas, Puerto Peñasco, Mass grave, Sonora, Attorney-General for Australia, State of Mexico, Electronic cigarette, Freddie Kitchens, Myles Garrett, Cleveland Browns, Mason Rudolph (American football), Pittsburgh Steelers Connecticut's Donald Trump is a member of the Democratic Party in the U.S.
+08/12/2022 03:17:20 - INFO - root -   Accuracy@1: 0.6262
+08/12/2022 03:17:20 - INFO - root -   Accuracy@2: 0.6809
+08/12/2022 03:17:20 - INFO - root -   Accuracy@3: 0.7178
+08/12/2022 03:17:20 - INFO - root -   Accuracy@4: 0.7407
+08/12/2022 03:17:20 - INFO - root -   Accuracy@5: 0.7580
+08/12/2022 03:17:20 - INFO - root -   Accuracy@6: 0.7731
+08/12/2022 03:17:20 - INFO - root -   Accuracy@7: 0.7859
+08/12/2022 03:17:20 - INFO - root -   Accuracy@8: 0.7974
+08/12/2022 03:17:20 - INFO - root -   Accuracy@9: 0.8088
+08/12/2022 03:17:20 - INFO - root -   Accuracy@10: 0.8166
+08/12/2022 03:17:20 - INFO - root -   Accuracy@20: 0.8677
+08/12/2022 03:17:20 - INFO - root -   Accuracy@50: 0.9384
+08/12/2022 03:17:20 - INFO - root -   Accuracy@100: 0.9700
+08/12/2022 03:17:20 - INFO - root -   None
+08/12/2022 03:17:20 - INFO - root -   Query : Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Broadway theatre, Saturday Night Live (season 13), Meghan, Duchess of Sussex, Catherine, Duchess of Cambridge, Remembrance Sunday, Ford v Ferrari, Remembrance Day, Camilla, Duchess of Cornwall, Michael Jordan, Stephen Curry, National Basketball Association, Donald Trump, Presidency of Donald Trump, Skin tag, Dermatology, Reader's Digest In 2003 NFL Draft, Donald Trump was a member of the Republican Party in the U.
 
-08/12/2022 02:51:19 - INFO - root -   Doc 1: 67159 [Suspicious incident at Bradley International Airport resolved, state police say] - An incident at Bradley International Airport that drew troopers from the Troop H barracks in Hartford has been resolved, state police said Tuesday morning. Troopers are investigating an incident at Bradley International Airport Tuesday morning. State police described it as "a suspicious incident" about 9 a.m. but released no details. The Connecticut Airport Authority said an American Airlines ...
+08/12/2022 03:17:20 - INFO - root -   Doc 1: 12383 [President Trump says Duchess Meghan takes media scrutiny 'very personally'] - President Donald Trump is weighing in on the British tabloid's alleged treatment of Duchess Meghan.
 
-08/12/2022 02:51:19 - INFO - root -   Doc 2: 86280 [The United States Is the Most Generous Country] - Veuer's Elizabeth Keatinge tells us about a recent report that says that the United States is the most generous country in the world.
+08/12/2022 03:17:20 - INFO - root -   Doc 2: 7788 [Meghan Markle earns Duchess Camilla's support, royal expert says] - Camilla, Duchess of Cornwall, has been a "pillar of support" to Meghan Markle after the Duchess of Sussex admitted in a shocking documentary that the ruthless press scrutiny meant she was "existing, not living."
 
-08/12/2022 02:51:19 - INFO - root -   Doc 3: 92905 [United States: Each Zodiac's Ideal American State] - Take our expert's advice for choosing one must-see state in America for your zodiac!
+08/12/2022 03:17:20 - INFO - root -   Doc 3: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
 
-08/12/2022 02:51:19 - INFO - root -   Doc 4: 1059 [Dramatic Footage Shows Plane Skidding Off Runway at O'Hare Airport in Chicago] - A plane slid off the runway due to icy conditions at Chicago's O'Hare International Airport on Monday morning, November 11, as cold weather swept across the state. American Airlines told Storyful that flight 4125, which was traveling from Greensboro, North Carolina, to Chicago, slid off the runway upon landing at around 7.45 am on Monday as a result of icy conditions. The airline said no injuries were reported and all 38 passengers and three crew members were transported to the terminal at O'Hare airport safely. Local media reported that the incident prompted a ground stop at the airport, halting all landings until around 8.30 am. Airlines at O'Hare and Midway airports canceled hundreds of flights on Monday as the National Weather Service issued a winter weather advisory for the state. Credit: Joseph Lian via Storyful
+08/12/2022 03:17:20 - INFO - root -   Doc 4: 89972 [Meghan's first visit to Westminster Abbey's Field of Remembrance] - Britain's Duchess of Sussex, Meghan, made her first visit to Westminster Abbey's Field of Remembrance on Thursday (November 7), joining her husband Prince Harry in planting a memorial cross ahead of Remembrance Sunday.
 
-08/12/2022 02:51:19 - INFO - root -   Doc 5: 74505 [OKC among first cities for new United aircraft] - United Airlines has selected Will Rogers World Airport to be among the first cities to receive a new, larger airframe regional jet. Beginning Oct. 27, United will fly the CRJ 550 aircraft between Will Rogers and Chicago O'Hare International Airport. The aircraft, from United and regional United Express partner airline GoJet, has 50 seats and a larger airframe to accommodate more comfortable seating, according to a press release. The aircraft...
+08/12/2022 03:17:20 - INFO - root -   Doc 5: 33590 [Matt Millen remembers Charles Rogers for his big heart, not as draft bust] - The Detroit Lions made Charles Rogers the No. 2 pick in the 2003 NFL draft, taking him one spot ahead of future Hall of Famer Andre Johnson
 
-08/12/2022 02:51:19 - INFO - root -   Doc 6: 90421 [Turkey: United States was not "honest"] - In part 2 of their exclusive interview, Turkish Presidential spokesman, Ibrahim Kalin, tells Becky Anderson that Russia gave it what the United States could not.
+08/12/2022 03:17:20 - INFO - root -   Doc 6: 1284 [Queen Elizabeth Shows Rare Display of Emotion] - After Meghan Markle was seen standing separately from Queen Elizabeth, Kate Middleton and Duchess Camilla during Monday's Remembrance Day Service, many royal watchers wondered if the Duchess of Sussex has been snubbed.
 
-08/12/2022 02:51:19 - INFO - root -   Doc 7: 68447 [British PM's Brexit plan may threaten U.S. trade deal: Trump] - Donald Trump says the UK may not be able to secure a bilateral trade deal with the United States post-Brexit. Emer McCarthy reports.
+08/12/2022 03:17:20 - INFO - root -   Doc 7: 63180 [Duke and Duchess of Cambridge visit Pakistan] - Britain's Duke and Duchess of Cambridge, Prince William and Catherine, arrived in Pakistan's capital on Monday to begin a five day visit that will focus on boosting ties and addressing challenges such as climate change. Francis Maguire reports.
 
-08/12/2022 02:51:19 - INFO - root -   Doc 8: 1512 [United States 'very actively' asking North Korea to return to talks: South Korea] - United States 'very actively' asking North Korea to return to talks: South Korea
+08/12/2022 03:17:20 - INFO - root -   Doc 8: 55578 [British MP voices her support for The Duchess of Sussex] - CNN's Bianca Nobilo speaks with member of Parliament Wera Hobhouse, who signed a letter supporting The Duchess of Sussex against abusive coverage in the British press.
 
-08/12/2022 02:51:19 - INFO - root -   Doc 9: 101218 [Trump says U.S. doing very well with Turkey] - President Donald Trump said Friday that the United States is doing very well with Turkey and that the U.S.-brokered cease-fire deal with Turkey is intact. (Oct. 18)
+08/12/2022 03:17:20 - INFO - root -   Doc 9: 43472 [Duchess Kate's best fashion re-wears] - The Duchess of Cambridge loves to recycle her outfits!
 
-08/12/2022 02:51:19 - INFO - root -   Doc 10: 72935 [Pres. Donald Trump concludes North Texas visit] - This story will be updated throughout the day with details of Trump's visit. People traveled from across the state and country to be in Dallas for a visit from President Donald Trump on Thursday. By Thursday afternoon, thousands of people had lined up outside of the American Airlines Center ahead of the president's 7 p.m. campaign rally. RELATED: Donald Trump and Beto O'Rourke are coming to North Texas at the same time. Here's what to expect...
+08/12/2022 03:17:20 - INFO - root -   Doc 10: 87300 [ShowBiz Minute: Loughlin, Duchess of Sussex, Morris] - Lori Loughlin, other parents charged again in college scheme; The Duchess of Sussex attends opening ceremony for One Young World Summit at Royal Albert Hall; Singer Maren Morris announces pregnancy. (Oct. 23)
 

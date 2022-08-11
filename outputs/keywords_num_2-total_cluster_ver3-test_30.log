@@ -1,0 +1,43 @@
+08/12/2022 03:20:01 - INFO - root -   Activating Elasticsearch....
+08/12/2022 03:20:01 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_2-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/12/2022 03:20:01 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
+08/12/2022 03:20:03 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
+08/12/2022 03:21:04 - INFO - root -   Retriever evaluation for k in: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 50, 100]
+08/12/2022 03:21:04 - INFO - root -   
+
+08/12/2022 03:21:05 - INFO - root -   Accuracy@1: 0.5437
+08/12/2022 03:21:05 - INFO - root -   Accuracy@2: 0.6263
+08/12/2022 03:21:05 - INFO - root -   Accuracy@3: 0.6746
+08/12/2022 03:21:05 - INFO - root -   Accuracy@4: 0.7079
+08/12/2022 03:21:05 - INFO - root -   Accuracy@5: 0.7329
+08/12/2022 03:21:05 - INFO - root -   Accuracy@6: 0.7533
+08/12/2022 03:21:05 - INFO - root -   Accuracy@7: 0.7695
+08/12/2022 03:21:05 - INFO - root -   Accuracy@8: 0.7840
+08/12/2022 03:21:05 - INFO - root -   Accuracy@9: 0.7975
+08/12/2022 03:21:05 - INFO - root -   Accuracy@10: 0.8097
+08/12/2022 03:21:05 - INFO - root -   Accuracy@20: 0.8731
+08/12/2022 03:21:05 - INFO - root -   Accuracy@50: 0.9389
+08/12/2022 03:21:05 - INFO - root -   Accuracy@100: 0.9678
+08/12/2022 03:21:05 - INFO - root -   None
+08/12/2022 03:21:05 - INFO - root -   Query : Broadway theatre, Saturday Night Live (season 13), Patient Protection and Affordable Care Act, Donald Trump, Animal shelter, Jennifer Aniston, Donald Trump Jr., Sunny Hostin, Jeffrey Epstein, Twitter, The View (talk show), Rip Taylor, Rudy Giuliani, Kim Kardashian, Versace, Minty Fresh, Whoopi Goldberg, Ni Freud ni tu mamá, Fighting game, Teresa Giudice, Italy, Connecticut, Tamron Hall, Today (American TV program), Megyn Kelly, Blond, Salon (website), Alec Baldwin, Jamal Khashoggi, Uber, Dara Khosrowshahi, Georgia (U.S. state), Homo erectus, Southwest Airlines, Federal Aviation Administration, Boeing 737, United States, New York City Police Department, Associated Press, Cranberry sauce, Chrissy Teigen, People (magazine), John Legend, Julia Michaels, Selena Gomez, Republican Party (United States), Shannon Bream, Dry eye syndrome, Fox News, Miranda Lambert, Country Music Association Awards, Kaley Cuoco, Kodak Black, Meghan, Duchess of Sussex, Frogmore Cottage, Charles Manson, Bruce M. Davis, Gavin Newsom, Manson Family, Governor of California, Sacramento, California Donald Trump was a member of the Duchess of Sussex. , Donald Trump is the leader of Connecticut.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 1: 5404 [Donald Trump Jr slams The View Host Sunny Hostin by asking what it's like to be paid by a network that 'protected pedophile - rapist Jeffrey Epstein' in war of words on Twitter] - Donald Trump Jr continued his war of words with The View host Sunny Hostin after his appearance on the show this week where he was criticized for naming the Ukrainian whistle-blower.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 2: 2639 [Parole rejected for Charles Manson follower after 50 years] - A third consecutive California governor is blocking parole for a former follower of late cult leader Charles Manson who has been in prison for decades for two of the Manson family's slayings in the 1960s. Gov. Gavin Newsom on Friday reversed a parole recommendation for Bruce Davis, now 77, for the 1969 slayings of musician Gary Hinman and stuntman Donald "Shorty" Shea.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 3: 12383 [President Trump says Duchess Meghan takes media scrutiny 'very personally'] - President Donald Trump is weighing in on the British tabloid's alleged treatment of Duchess Meghan.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 4: 81841 [Donald Trump Jr. and Meghan McCain face off on 'The View'] - Meghan McCain confronted Donald Trump Jr. about the pain his father has caused by attacking a Gold Star family during the 2016 election.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 5: 48886 [Donald Trump Jr. appeared on 'The View' to promote new book 'Triggered', and it got heated] - Donald Trump, Jr. appeared on 'The View' to promote his new book 'Triggered,' but argued with hosts including Joy Behar and Meghan McCain.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 6: 4073 [Watch: 'The View' Versus Donald Trump Jr.: Loud, Low Blows, Politics, Scandals And Great TV] - Updated throughout, videos added Whoopi Goldberg wouldn't say his name, Sunny Hostin said he was lying, Abby Huntsman accused him of using "dictator" tactics. And Donald Trump Jr. gave it back, accusing Joy Behar of once wearing blackface and resurrected Goldberg's defense of Roman Polanski as not committing "rape rape," all in a
+
+08/12/2022 03:21:05 - INFO - root -   Doc 7: 2171 [Donald Trump Jr. reflects on explosive 'View' chat: 'I don't think they like me much anymore'] - After a heated appearance on "The View" Thursday, Donald Trump Jr. talked about the experience later that day with Sean Hannity on Fox News.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 8: 7408 ['No more': Trump says he'll cut off federal funds to fight California wildfires] - President Donald Trump said Sunday that he wants to cut off federal funds to fight wildfires raging across California, criticizing Gov. Gavin Newsom.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 9: 69175 [Meghan McCain confronts Donald Trump Jr. on his father's 'character'] - Trump Jr. apologized for how President Donald Trump treated the late Sen. John McCain. Both Trump Jr. and girlfriend Kimberly Guilfoyle bemoaned treatment from the left of the Trump family.
+
+08/12/2022 03:21:05 - INFO - root -   Doc 10: 46575 [Charlie Kirk, Donald Trump Jr. talk about campus culture, being 'woke' at Colorado State] - Turning Point USA President Charlie Kirk and Donald Trump Jr. came to the Colorado State University campus Tuesday to talk about the "culture war."
+

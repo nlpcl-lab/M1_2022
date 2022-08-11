@@ -1,39 +1,43 @@
-08/12/2022 03:04:48 - INFO - root -   Activating Elasticsearch....
-08/12/2022 03:04:48 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_3-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
-08/12/2022 03:04:48 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_3-total_cluster_ver3-test_30
-08/12/2022 03:04:50 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_3-total_cluster_ver3-test_30
-08/12/2022 03:05:52 - INFO - root -   Retriever evaluation for k in: [1, 3, 5, 10, 20, 50, 100, 500, 1000]
-08/12/2022 03:05:52 - INFO - root -   
+08/12/2022 03:10:10 - INFO - root -   Activating Elasticsearch....
+08/12/2022 03:10:10 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_3-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/12/2022 03:10:10 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_3-total_cluster_ver3-test_30
+08/12/2022 03:10:12 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_3-total_cluster_ver3-test_30
+08/12/2022 03:11:23 - INFO - root -   Retriever evaluation for k in: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 50, 100]
+08/12/2022 03:11:23 - INFO - root -   
 
-08/12/2022 03:05:54 - INFO - root -   Accuracy@1: 0.5826
-08/12/2022 03:05:54 - INFO - root -   Accuracy@3: 0.6926
-08/12/2022 03:05:54 - INFO - root -   Accuracy@5: 0.7452
-08/12/2022 03:05:54 - INFO - root -   Accuracy@10: 0.8061
-08/12/2022 03:05:54 - INFO - root -   Accuracy@20: 0.8616
-08/12/2022 03:05:54 - INFO - root -   Accuracy@50: 0.9288
-08/12/2022 03:05:54 - INFO - root -   Accuracy@100: 0.9649
-08/12/2022 03:05:54 - INFO - root -   Accuracy@500: 0.9945
-08/12/2022 03:05:54 - INFO - root -   Accuracy@1000: 0.9995
-08/12/2022 03:05:54 - INFO - root -   None
-08/12/2022 03:05:54 - INFO - root -   Query : Islamic State of Iraq and the Levant, Hoda Muthana, NBC News, Alabama, Vanna White, Pat Sajak, Wheel of Fortune (American game show), Associated Press, Los Angeles, Broadway theatre, Saturday Night Live (season 13), Bangladesh, India, Bangladesh–India relations, Buffalo Wild Wings, Lahey Hospital & Medical Center, Burlington, Massachusetts, Bob Norris (footballer), KKTV, Colorado, CBS, Donald Trump Jr., University of California, Peter T. King, Islamophobia, Ilhan Omar, Death of Eric Garner, United States House of Representatives, Women in Islam, Ummah, Minnesota, Jimmy Carter, Carter Center, Atlanta, Sarah Hyland, John Travolta, Christmas, Texas, ACH (wrestler), WWE, WWE brand extension, Calls (TV series), Donald Trump baby balloon, Tuscaloosa, Alabama, Donald Trump, San Fernando Valley, Meghan, Duchess of Sussex, Betsy DeVos, United States Secretary of Education, National Football League, San Francisco 49ers, New England Patriots, British royal family, Chuck E. Cheese's, Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Chevrolet Corvette, Chevrolet Corvette (C8), Detroit, Blue Zone, Dan Buettner, Costco, Rotisserie chicken, Frogmore Cottage, Marie L. Yovanovitch, Republican Party (United States), Mike Conaway, Adam Schiff, Ukraine, Democratic Party (United States), California, Buick Regal, Twitter, White Castle (restaurant), Indiana, Indianapolis Donald Trump's Duchess of Sussex was the Detroit Lions.
+08/12/2022 03:11:24 - INFO - root -   Accuracy@1: 0.5826
+08/12/2022 03:11:24 - INFO - root -   Accuracy@2: 0.6544
+08/12/2022 03:11:24 - INFO - root -   Accuracy@3: 0.6926
+08/12/2022 03:11:24 - INFO - root -   Accuracy@4: 0.7251
+08/12/2022 03:11:24 - INFO - root -   Accuracy@5: 0.7452
+08/12/2022 03:11:24 - INFO - root -   Accuracy@6: 0.7606
+08/12/2022 03:11:24 - INFO - root -   Accuracy@7: 0.7738
+08/12/2022 03:11:24 - INFO - root -   Accuracy@8: 0.7867
+08/12/2022 03:11:24 - INFO - root -   Accuracy@9: 0.7966
+08/12/2022 03:11:24 - INFO - root -   Accuracy@10: 0.8061
+08/12/2022 03:11:24 - INFO - root -   Accuracy@20: 0.8616
+08/12/2022 03:11:24 - INFO - root -   Accuracy@50: 0.9288
+08/12/2022 03:11:24 - INFO - root -   Accuracy@100: 0.9649
+08/12/2022 03:11:24 - INFO - root -   None
+08/12/2022 03:11:24 - INFO - root -   Query : Richard Sherman (American football), Russell Wilson, Lees Camp, Oregon, Connecticut, Taliban, American University of Afghanistan, Kabul, United States, Dean Foods, Josh Gordon, Seattle Seahawks, New England Patriots, Renton, Washington, Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Porsche, New Jersey, Toms River, Amazon (company), Seattle City Council, Pittsburgh Steelers, Minkah Fitzpatrick, Miami Dolphins, Chicago, Texas, Wang Sicong, Wang Jianlin, Wall Street, South Carolina, Townville Elementary School shooting, Taylor Swift, Scooter Braun, Scott Borchetta, American Music Awards, Big Machine Records, Colin Kaepernick, Montae Nicholson, Washington Redskins, Mason Rudolph (American football), Jerusalem, Bashar al-Assad, Syria, They Remain, Donald Trump Donald Trump is the leader of the United States, where the Detroit Lions are from. , Donald Trump from Connecticut played for the Detroit Lions.
 
-08/12/2022 03:05:54 - INFO - root -   Doc 1: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
+08/12/2022 03:11:24 - INFO - root -   Doc 1: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
 
-08/12/2022 03:05:54 - INFO - root -   Doc 2: 97252 [Trump expected to attend LSU-Alabama football game] - WASHINGTON (AP)   President Donald Trump is expected to attend Saturday's college football matchup between the two highest-ranked teams in the nation, Louisiana State University and the University of Alabama. The Federal Aviation Administration is advising that Trump will travel to Tuscaloosa, Alabama, for the game. It will be the third Trump visit to a high-profile sporting event in as many weeks. Last month Trump attended Game 5 of the World...
+08/12/2022 03:11:24 - INFO - root -   Doc 2: 1580 [Taylor Swift Says Scooter Braun, Scott Borchetta Are Blocking Her From Playing Old Hits at AMAs] - Taylor Swift has taken to social media to tell fans that Scott Borchetta, her former label head at Big Machine Records, and his new partner Scooter Braun are trying to nix her plans for a retrospective performance at the American Music Awards, as well as denying the use of her recordings for a documentary she
 
-08/12/2022 03:05:54 - INFO - root -   Doc 3: 16401 [See Trump's enthusiastic reception at LSU-Alabama game] - President Donald Trump was greeted by applause at the LSU-Alabama SEC football game in Tuscaloosa, Alabama.
+08/12/2022 03:11:24 - INFO - root -   Doc 3: 6353 [Syria's Assad says Trump's transparency makes him 'best American president' ever] - Syrian President Bashar Assad says he thinks Donald Trump is the "best American president" ever   because he's the "most transparent".
 
-08/12/2022 03:05:54 - INFO - root -   Doc 4: 55576 [Trump leaves WH, slams continued 'witch hunt'] - President Donald Trump said on Saturday that the "Republicans have never been so united" and that the "witch hunt continues" as he left the White House with First Lady Melania Trump to travel to Tuscaloosa, Alabama. (Nov. 9)
+08/12/2022 03:11:24 - INFO - root -   Doc 4: 14860 [Big Machine Records Denies Taylor Swift's Claims of Blocking Music Use] - In a statement issued early Friday morning, Big Machine Records denied Taylor Swift's claims that they are blocking the use of her music. Swift had said in social media posts late Thursday that her former record company, which is run by Scott Borchetta and his new partner Scooter Braun, are trying to nix her plans for a...
 
-08/12/2022 03:05:54 - INFO - root -   Doc 5: 2504 [WATCH: Trump Greeted by Cheers at LSU-Alabama Football Game] - President Donald Trump was greeted by a round of cheers while attending the University of Alabama's football home game against Louisiana State University Videos of the event appear to show loud cheers greeting Trump, though one reporter noted there were some "lingering boos."
+08/12/2022 03:11:24 - INFO - root -   Doc 5: 14544 [Taylor Swift Set to Receive Artist of the Decade Award at 2019 American Music Awards] - Taylor Swift will be receiving the Artist of the Decade Award at the 2019 American Music Awards, where she is nominated for five awards and set to perform.
 
-08/12/2022 03:05:54 - INFO - root -   Doc 6: 82057 [The recap: Charlie Kirk, Donald Trump Jr. at Colorado State University] - These are live updates from University Center for the Arts event on Colorado State University campus.
+08/12/2022 03:11:24 - INFO - root -   Doc 6: 31030 [Detroit Lions will attend Colin Kaepernick's weekend workout in Atlanta] - Colin Kaepernick has a workout scheduled as he looks for a way back into the NFL, and the Detroit Lions will be one of the teams in attendance.
 
-08/12/2022 03:05:54 - INFO - root -   Doc 7: 1115 ['Baby Trump' balloon slashed at Alabama appearance] - TUSCALOOSA, Ala. (AP)   A towering "Baby Trump" protest balloon was knifed and deflated by someone unhappy with its appearance during President Donald Trump's Saturday trip to Alabama, organizers said.
+08/12/2022 03:11:24 - INFO - root -   Doc 7: 20815 [Taylor Swift says Scott Borchetta, Scooter Braun are blocking her from singing hits at AMAs] - Taylor Swift's old label head is blocking her from performing her past hits on the American Music Awards.
 
-08/12/2022 03:05:54 - INFO - root -   Doc 8: 137 ['Baby Trump' balloon slashed while in Tuscaloosa] - After being transported to Tuscaloosa, Alabama, where President Trump was attending the LSU- Alabama football game, the "Baby Trump" balloon has been slashed -- and as a result, deflated.
+08/12/2022 03:11:24 - INFO - root -   Doc 8: 19745 [Former star football player Charles Rogers dies at 38] - Former Michigan State University and Detroit Lions wide receiver Charles Rogers has died.
 
-08/12/2022 03:05:54 - INFO - root -   Doc 9: 46575 [Charlie Kirk, Donald Trump Jr. talk about campus culture, being 'woke' at Colorado State] - Turning Point USA President Charlie Kirk and Donald Trump Jr. came to the Colorado State University campus Tuesday to talk about the "culture war."
+08/12/2022 03:11:24 - INFO - root -   Doc 9: 4352 [Abandoned by U.S. in Syria, Kurds Find New Ally in American Foe] - DOHUK, Iraq   Kurdish forces long allied with the United States in Syria announced a new deal on Sunday with the government in Damascus, a sworn enemy of Washington that is backed by Russia, as Turkish troops moved deeper into their territory and President Trump ordered the withdrawal of the American military from northern Syria.
 
-08/12/2022 03:05:54 - INFO - root -   Doc 10: 12383 [President Trump says Duchess Meghan takes media scrutiny 'very personally'] - President Donald Trump is weighing in on the British tabloid's alleged treatment of Duchess Meghan.
+08/12/2022 03:11:24 - INFO - root -   Doc 10: 73705 [Trump says the US is building a wall in Colorado] - During a speech on American energy in Pittsburgh, President Donald Trump claimed the US is building a wall in Colorado -- a state that doesn't border Mexico.
 
