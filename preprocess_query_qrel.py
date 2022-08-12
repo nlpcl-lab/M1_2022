@@ -46,7 +46,7 @@ def make_query_qrel_for_each_cluster(cluster_num):
         torch.manual_seed(42)
         model = pipeline("k2t-base") #loading the trained model
         params = {"do_sample":True, "num_beams":4, "no_repeat_ngram_size":3, "early_stopping":True} #decoding params
-        str_community_likes = model(lst_sorted_freq_70_user_likes, **params) #keywords
+        str_community_likes = model(lst_sorted_freq_70_user_likes, **params) #community like keywords to text
         
         # preprocess test query & qrel for rest of the 30% users for current cluster (test), using the frequent like keywords from 70% users (validation)
         json_query_preprocessed = {}
