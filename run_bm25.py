@@ -61,7 +61,8 @@ retriever = EvaluateRetrieval(model)
 results = retriever.retrieve(corpus, queries)
 
 #### Evaluate your retrieval using NDCG@k, MAP@K ...
-retriever.k_values = [1,2,3,4,5,6,7,8,9,10,20,50,100]
+#retriever.k_values = [1,2,3,4,5,6,7,8,9,10,20,50,100]
+retriever.k_values = [2]
 logging.info("Retriever evaluation for k in: {}".format(retriever.k_values))
 top_k_accuracy = retriever.evaluate_custom(qrels, results, retriever.k_values, metric="top_k_accuracy")
 print('top_k_accuracy: {}'.format(top_k_accuracy))
