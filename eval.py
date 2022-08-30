@@ -5,6 +5,9 @@ from beir.retrieval.search.lexical import BM25Search as BM25
 
 import pathlib, os, random, json, argparse
 import logging
+import warnings
+
+warnings.filterwarnings(action='ignore')
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--corpus_path", default="/home/syjeong/Starlab/data/preprocessed/total_docs.json", type=str, help="")

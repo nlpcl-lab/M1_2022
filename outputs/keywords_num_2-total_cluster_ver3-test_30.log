@@ -1,0 +1,31 @@
+08/30/2022 16:36:33 - INFO - root -   Activating Elasticsearch....
+08/30/2022 16:36:33 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_2-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/30/2022 16:36:33 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
+08/30/2022 16:36:35 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
+08/30/2022 16:37:41 - INFO - root -   Retriever evaluation for k in: [2]
+08/30/2022 16:37:41 - INFO - root -   
+
+08/30/2022 16:37:41 - INFO - root -   Accuracy@2: 0.6263
+08/30/2022 16:37:41 - INFO - root -   None
+08/30/2022 16:37:41 - INFO - root -   Query : Porsche, New Jersey, Toms River, Tim Ryan (Ohio politician), Joe Biden, Democratic Party (United States), Republican Party (United States), Southwest Airlines, Federal Aviation Administration, Boeing 737, United States, Utah v. Lafferty, Salt Lake City, Under the Banner of Heaven, Prince Harry, Duke of Sussex, Charles, Prince of Wales, Wedding of Prince Harry and Meghan Markle, Duke of Sussex, Julia Michaels, Selena Gomez, Teresa Giudice, Malaysia Airlines Flight 17, Vladimir Putin, Russophilia, President of Russia, Wang Sicong, Wang Jianlin, Michael Jordan, Stephen Curry, National Basketball Association, Sandy Hook Elementary School shooting, Remington Arms, Newtown, Connecticut, Connecticut, Charles Rogers (American football), Detroit Lions, 2003 NFL Draft, Sarah Palin, Todd Palin, Alaska, Governorship of Sarah Palin, Rip Taylor, Costco, Black Friday (shopping), Rudy Giuliani, Donald Trump, Marie L. Yovanovitch, Pregnancy, Swan diagram, South Carolina, Townville Elementary School shooting, Meghan, Duchess of Sussex, Frogmore Cottage Donald Trump was a member of the Duchess of Sussex. , Donald Trump is a leader of the United States. , The United States is the location of the Duchess of Sussex in the United States. , Meghanette Duchess of Sussex is from the United States.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 1: 418 [Prince Harry and Meghan Markle just shared a never-before-seen photo of baby Archie with his 'Grandpa' Prince Charles to celebrate his birthday] - The Duke and Duchess of Sussex shared a new photo of Archie, Harry, and Charles to mark the Prince of Wales' 71st birthday on Thursday.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 2: 5774 [Prince Charles Looks in Awe of Master Archie at Christening] - The photo, posted by the Duke and Duchess of Sussex on Instagram, is from baby Archie's July 6 christening and shows proud dad Prince Harry and grandpa Prince Charles beaming down at the little one.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 3: 63262 [Prince Harry and Meghan Markle's Sweetest Moments] - See the Duke and Duchess of Sussex's cutest snaps here.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 4: 1297 [Meghan Markle and Prince Harry Honor Veterans Day Through Instagram] - The Duke and Duchess of Sussex posted a touching tribute to American vets.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 5: 1018 [Here's how much it will cost to travel to Africa like Meghan Markle and Prince Harry] - The travel company Classic Escapes is offering a package that promises a 10-day trip throughout South Africa, full of the same cultural and philanthropic pit stops Prince Harry and Meghan, Duchess of Sussex, made this September.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 6: 87300 [ShowBiz Minute: Loughlin, Duchess of Sussex, Morris] - Lori Loughlin, other parents charged again in college scheme; The Duchess of Sussex attends opening ceremony for One Young World Summit at Royal Albert Hall; Singer Maren Morris announces pregnancy. (Oct. 23)
+
+08/30/2022 16:37:41 - INFO - root -   Doc 7: 6793 [Anti-Harry and Meghan hysteria driven by tabloid media and palace insiders, source claims] - A source close to the Duke and Duchess of Sussex has hit out at what they called the hysterical reaction to comments Prince Harry made about his brother.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 8: 55578 [British MP voices her support for The Duchess of Sussex] - CNN's Bianca Nobilo speaks with member of Parliament Wera Hobhouse, who signed a letter supporting The Duchess of Sussex against abusive coverage in the British press.
+
+08/30/2022 16:37:41 - INFO - root -   Doc 9: 84180 [Duchess is 'a wonderful actor'] - TV and theater actor Wendell Pierce wants his former "Suits" co-star Meghan, Duchess of Sussex, to return to acting, suggesting she could put on a play with Prince Harry for charity. (Oct. 23)
+
+08/30/2022 16:37:41 - INFO - root -   Doc 10: 97809 [Meghan and Harry get candid about tabloids, Prince William] - Stunning comments from the Duke and Duchess of Sussex are raising questions over their Royal future.
+
