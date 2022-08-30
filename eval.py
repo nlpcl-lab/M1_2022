@@ -1,7 +1,7 @@
-from beir import util, LoggingHandler
-from beir.datasets.data_loader import GenericDataLoader
 from beir.retrieval.evaluation import EvaluateRetrieval
 from beir.retrieval.search.lexical import BM25Search as BM25
+from typing import Type, List, Dict, Union, Tuple
+
 
 import pathlib, os, random, json, argparse
 import logging
@@ -25,6 +25,38 @@ logging.basicConfig(
                     datefmt="%m/%d/%Y %H:%M:%S",
                     level=logging.INFO
                 )
+
+
+def calculate_top_k_accuracy(
+        qrels: Dict[str, Dict[str, int]], 
+        results: Dict[str, Dict[str, float]], 
+        k_values: List[int]) -> Tuple[Dict[str, float]]:
+    
+    top_k_acc = {}
+    
+    for k in k_values:
+        top_k_acc[f"Accuracy@{k}"] = 0.0
+    
+    k_max, top_hits = max(k_values), {}
+    logging.info("\n")
+    
+    for query_id, doc_scores in results.items():
+        top_hits[query_id] = [item[0] for item in sorted(doc_scores.items(), key=lambda item: item[1], reverse=True)[0:k_max]]
+    
+    for query_id in top_hits:
+        query_relevant_docs = set([doc_id for doc_id in qrels[query_id] if qrels[query_id][doc_id] > 0])
+        for k in k_values:
+            for relevant_doc_id in query_relevant_docs:
+                if relevant_doc_id in top_hits[query_id][0:k]:
+                    top_k_acc[f"Accuracy@{k}"] += 1.0
+                    break
+
+    for k in k_values:
+        top_k_acc[f"Accuracy@{k}"] = round(top_k_acc[f"Accuracy@{k}"]/len(qrels), 5)
+        logging.info("Accuracy@{}: {:.4f}".format(k, top_k_acc[f"Accuracy@{k}"]))
+
+    return top_k_acc
+
 #### /print debug information to stdout
 
 #### load dataset
@@ -64,10 +96,9 @@ retriever = EvaluateRetrieval(model)
 results = retriever.retrieve(corpus, queries)
 
 #### Evaluate your retrieval using NDCG@k, MAP@K ...
-#retriever.k_values = [1,2,3,4,5,6,7,8,9,10,20,50,100]
 retriever.k_values = [2]
 logging.info("Retriever evaluation for k in: {}".format(retriever.k_values))
-top_k_accuracy = retriever.evaluate_custom(qrels, results, retriever.k_values, metric="top_k_accuracy")
+top_k_accuracy = calculate_top_k_accuracy(qrels, results, retriever.k_values)
 print('top_k_accuracy: {}'.format(top_k_accuracy))
 logging.info(print('top_k_accuracy: {}'.format(top_k_accuracy)))
 
@@ -80,3 +111,6 @@ scores = sorted(scores_dict.items(), key=lambda item: item[1], reverse=True)
 for rank in range(10):
     doc_id = scores[rank][0]
     logging.info("Doc %d: %s [%s] - %s\n" % (rank+1, doc_id, corpus[doc_id].get("title"), corpus[doc_id].get("text")))
+
+
+

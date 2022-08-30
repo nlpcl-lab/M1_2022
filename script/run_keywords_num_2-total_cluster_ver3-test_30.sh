@@ -1,3 +1,6 @@
+# preprocess documents
+# python /home/syjeong/Starlab/preprocess_doc.py
+
 python /home/syjeong/Starlab/generate.py \
     --keywords_num 2
 

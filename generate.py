@@ -12,7 +12,7 @@ warnings.filterwarnings(action='ignore')
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--valid_proportaion", default=0.7, type=float, help="")
-parser.add_argument("--keywords_num", default=10, type=int, help="")
+parser.add_argument("--keywords_num", default=2, type=int, help="")
 args = parser.parse_args()
 
 def make_query_qrel_for_each_cluster(cluster_num):
@@ -60,7 +60,7 @@ def make_query_qrel_for_each_cluster(cluster_num):
             str_likes_with_community_likes = str_likes + ' ' + str_community_likes
             
             json_query_preprocessed[user_key] = str_likes_with_community_likes
-
+            
             # preprocess qrel for current cluster
             lst_likes_doc = [str(i) for i in json_data[user_key]['likes_doc']]
 
@@ -87,11 +87,8 @@ for i in range(0,10):
     
     # merge query for each cluster
     for k, v in i_cluster_json_query_preprocessed.items():
-        #total_cluster_json_query_preprocessed[k] = total_cluster_json_query_preprocessed[k] + ' , ' + cluster_like_keywords if k in total_cluster_json_query_preprocessed else v
-        
         # if user (key) exists in both clusters, then concat two queries (value)
         if k in total_cluster_json_query_preprocessed:
-            #import pdb; pdb.set_trace()
             total_cluster_json_query_preprocessed[k] = total_cluster_json_query_preprocessed[k] + ' , ' + cluster_like_keywords
         else:
             total_cluster_json_query_preprocessed[k] = v
@@ -101,6 +98,7 @@ for i in range(0,10):
     for k, v in i_cluster_json_qrel_preprocessed.items():
         total_cluster_json_qrel_preprocessed[k] = v
 
+print(len(total_cluster_json_query_preprocessed))
 with open('/home/syjeong/Starlab/data/preprocessed/ver3/keywords_num/'+str(args.keywords_num)+'/'+'total_cluster_ver3_30_users_query_penguin.json', "w") as writer: 
     writer.write(json.dumps(total_cluster_json_query_preprocessed, indent=4) + "\n")
 
