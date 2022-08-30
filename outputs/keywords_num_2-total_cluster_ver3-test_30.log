@@ -1,31 +1,31 @@
-08/30/2022 20:27:11 - INFO - root -   Activating Elasticsearch....
-08/30/2022 20:27:11 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_2-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
-08/30/2022 20:27:11 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
-08/30/2022 20:27:13 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
-08/30/2022 20:28:17 - INFO - root -   Retriever evaluation for k in: [2]
-08/30/2022 20:28:17 - INFO - root -   
+08/30/2022 20:36:06 - INFO - root -   Activating Elasticsearch....
+08/30/2022 20:36:06 - INFO - root -   Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'keywords_num_2-total_cluster_ver3-test_30', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 1, 'language': 'english'}
+08/30/2022 20:36:06 - INFO - root -   Deleting previous Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
+08/30/2022 20:36:08 - INFO - root -   Creating fresh Elasticsearch-Index named - keywords_num_2-total_cluster_ver3-test_30
+08/30/2022 20:37:13 - INFO - root -   Retriever evaluation for k in: [2]
+08/30/2022 20:37:13 - INFO - root -   
 
-08/30/2022 20:28:18 - INFO - root -   Accuracy@2: 0.6263
-08/30/2022 20:28:18 - INFO - root -   None
-08/30/2022 20:28:18 - INFO - root -   Query : Ford v Ferrari, Arizona, Brett Kavanaugh, James Comey, Donald Trump, Lung transplantation, United States, Ruth Bader Ginsburg, John Roberts, Israel, Israel Defense Forces, Sandy Hook Elementary School shooting, Remington Arms, Newtown, Connecticut, Connecticut, Chrissy Teigen, Electronic cigarette Connecticut is located in the United States.
+08/30/2022 20:37:14 - INFO - root -   Accuracy@2: 0.6263
+08/30/2022 20:37:14 - INFO - root -   None
+08/30/2022 20:37:14 - INFO - root -   Query : Kidney stone disease, Medical sign, San Francisco 49ers, Monday Night Football, Joe Tessitore, Jeff Bridges, Adam Driver, Ice-T, Rip Taylor, Kim Kardashian, Katie Holmes, Kate Hudson, Gigi Hadid, Emma Stone, Remembrance Day, Remembrance poppy, Buzz (airline), United Kingdom, Kenny Golladay, Detroit Lions, Chicago Bears, Charles Rogers (American football), 2003 NFL Draft, Broadway theatre, Once (musical), Cat on a Hot Tin Roof, Toms River, New Jersey, Wild turkey, Animal control service, Rudy Giuliani, Social media, NBC, Instagram, Fox News, Megyn Kelly Today, Diabetes, Antisemitism, Ilhan Omar, Michael Bloomberg, Leon G. Cooperman, Jews, Sarah Hyland, Todd Frazier, Pac-12 Conference, Washington (state), Mecole Hardman, Kansas City Chiefs, World War II, Pearl Harbor, Dolly Parton, Billboard Hot 100, Chrissy Teigen, Alabama Crimson Tide football, United States, SunPower, Sarah Palin, Todd Palin, Alaska, Governorship of Sarah Palin, Chris Paul, Houston Rockets, Los Angeles Lakers, Dean Foods, Lamar Odom, Pat Sajak, Wheel of Fortune (American game show), McDonald's, Filet-O-Fish, Myles Garrett, Angelina Jolie, Brad Pitt, Meghan, Duchess of Sussex, Frogmore Cottage, Sydney, Qantas, London, Australia, Perth, Brooklyn Meghanette Duchess of Sussex is from the United States.
 
-08/30/2022 20:28:18 - INFO - root -   Doc 1: 2194 [Brett Kavanaugh calls Ruth Bader Ginsburg 'inspiration,' heaps gratitude on allies] - In his first speech as a Supreme Court justice, Brett Kavanaugh heaped "gratitude" on his supporters and hailed Ruth Bader Ginsburg as an "inspiration."
+08/30/2022 20:37:14 - INFO - root -   Doc 1: 1163 ['It's not over': Sarah Palin says she is fighting to repair her marriage] - Former Alaska Gov. Sarah Palin said she learned her husband, Todd, wanted a divorce in an email from his lawyer and that the two are seeking counseling.
 
-08/30/2022 20:28:18 - INFO - root -   Doc 2: 1009 [School shootings were reported at 15 California schools since Sandy Hook] - Since the horror unleashed by a gunman at Sandy Hook Elementary in Connecticut in 2012, some 16,000 students have experienced some sort of shooting in California.
+08/30/2022 20:37:14 - INFO - root -   Doc 2: 646 [Charles Rogers, former Michigan State football, Detroit Lions star, dead at 38] - Charles Rogers, the former Michigan State football star whom the Detroit Lions selected with the second overall pick in 2003 NFL draft, has died.
 
-08/30/2022 20:28:18 - INFO - root -   Doc 3: 65507 [Supreme Court allows Sandy Hook families to sue Remington] - The Supreme Court won't stop a lawsuit brought by Sandy Hook victims' families against Remington Arms Co., the manufacturer of the semi-automatic rifle that was used in the 2012 mass shooting at an elementary school.
+08/30/2022 20:37:14 - INFO - root -   Doc 3: 1284 [Queen Elizabeth Shows Rare Display of Emotion] - After Meghan Markle was seen standing separately from Queen Elizabeth, Kate Middleton and Duchess Camilla during Monday's Remembrance Day Service, many royal watchers wondered if the Duchess of Sussex has been snubbed.
 
-08/30/2022 20:28:18 - INFO - root -   Doc 4: 420 [Ruth Bader Ginsburg misses court due to illness] - Supreme Court Justice Ruth Bader Ginsburg was not on the bench for oral arguments Wednesday due to illness, according to Chief Justice John Roberts.
+08/30/2022 20:37:14 - INFO - root -   Doc 4: 89972 [Meghan's first visit to Westminster Abbey's Field of Remembrance] - Britain's Duchess of Sussex, Meghan, made her first visit to Westminster Abbey's Field of Remembrance on Thursday (November 7), joining her husband Prince Harry in planting a memorial cross ahead of Remembrance Sunday.
 
-08/30/2022 20:28:18 - INFO - root -   Doc 5: 54715 [Trump reelection campaign announces its Connecticut team] - State Rep. Tony D'Amelio of Waterbury will serve as honorary state chairman of President Trump's 2020 reelection effort in Connecticut, the campaign announced Wednesday. D'Amelio was the first sitting member of the Connecticut legislature to publicly endorse Trump in 2016. Trump's Connecticut team also includes Jeff Santopietro, brother of former Waterbury Mayor Joe Santopietro, and Elissa ...
+08/30/2022 20:37:14 - INFO - root -   Doc 5: 79522 [Ex-Yankee, Met Todd Frazier escalates fight against Toms River's wild turkey problem] - Todd Frazier will not let the wild turkeys win. The former Yankees and Mets third baseman tweeted out a photo of the animals attacking his car before going on local news on Sunday as he continued escalating his war with the animals terrorizing his hometown of Toms River. "We actually got attacked by a couple of them a year ago," Frazier told News 12 on Sunday. "I have three young kids and ...
 
-08/30/2022 20:28:18 - INFO - root -   Doc 6: 84148 [Connecticut K-9 Unit Makes Major Drug Bust] - Canine officers in Connecticut are being credited with finding hundreds of pounds of marijuana.
+08/30/2022 20:37:14 - INFO - root -   Doc 6: 6524 [Megyn Kelly Charts Return to Spotlight With Social-Media Venture] - Megyn Kelly Today was cancelled by NBC about a year ago. But "The Megyn Kelly Show," so to speak, continues. The former star anchor from Fox News Channel and NBC took to Instagram Friday to unveil what appears to be a new social-media venture. In a video, she told followers of her newly-established account she
 
-08/30/2022 20:28:18 - INFO - root -   Doc 7: 96434 [Bill Clinton reveals abortion conversation with Ruth Bader Ginsburg] - The former president revealed Wednesday that he openly discussed the issue with his first nomination to the U.S. Supreme Court, Ruth Bader Ginsburg.
+08/30/2022 20:37:14 - INFO - root -   Doc 7: 953 [Last known Pearl Harbor survivor in Mass. dies at 98] - Massachusetts' last known survivor of the Japanese attack on Pearl Harbor that drew the United States into World War II died Tuesday at 98.
 
-08/30/2022 20:28:18 - INFO - root -   Doc 8: 83579 [Connecticut leaders 'threw the kitchen sink' at federal immigration officials to help Hartford woman avoid deportation in unusual case] - A Connecticut woman facing deportation this week instead will be allowed to stay in the United States after Connecticut's top lawmaker and law enforcement officials "threw the kitchen sink" at federal immigration officials Tuesday. Gov. Ned Lamont, Attorney General William Tong and U.S. Attorney John Durham each pushed officials at Immigration and Customs Enforcement and the Board of ...
+08/30/2022 20:37:14 - INFO - root -   Doc 8: 16 [Meghan Markle and Prince Harry Reunite with Kate Middleton and Prince William for Remembrance Service] - Meghan Markle, Harry Reunite Kate and William at Remembrance Day
 
-08/30/2022 20:28:18 - INFO - root -   Doc 9: 472 [Supreme Court refuses to block lawsuit against gun manufacturer brought by Sandy Hook families] - The Supreme Court refused to shield Remington Arms Co. from potential liability for the 2012 school shooting that left 26 dead in Newtown, Conn.
+08/30/2022 20:37:14 - INFO - root -   Doc 9: 1297 [Meghan Markle and Prince Harry Honor Veterans Day Through Instagram] - The Duke and Duchess of Sussex posted a touching tribute to American vets.
 
-08/30/2022 20:28:18 - INFO - root -   Doc 10: 39807 [Get to Know Your State Roads In North-Central Connecticut] - An informative series on Patch providing facts and figures on some of the state roads winding through northern and central Connecticut.
+08/30/2022 20:37:14 - INFO - root -   Doc 10: 1 [Rep. Ilhan Omar is accused of 'dog whistle' anti-Semitism after she posts tweet implying billionaire businessman Leon Cooperman is only supporting Michael Bloomberg's presidential run because he is Jewish] - Rep. Ilhan Omar came under fire on Saturday for sharing a tweet revealing billionaire Leon Cooperman will back Michael Bloomberg's 2020 bid and allegedly implying it's because he is Jewish.
 
