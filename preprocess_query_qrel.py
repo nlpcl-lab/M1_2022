@@ -98,7 +98,6 @@ for i in range(0,10):
 
     # merge qrel for each cluster
     # even if user (key) exists in both clusters, qrels are same
-    # (TODO): 위의 이유로 total_cluster_json_qrel_preprocessed[k] = v 로 해도 되는지 확인..?
     for k, v in i_cluster_json_qrel_preprocessed.items():
         total_cluster_json_qrel_preprocessed[k] = v
 
